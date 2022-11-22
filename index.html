@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Jiggly Ghibli</title>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <div class="logo">
+            <img class="logo__img" src="/assets/kindpng_4774892.png" alt="">
+            <b class="logo__text">Jiggly Ghibli</b>
+        </div>
+        <ul class="nav-bar--links">
+            <li class="nav-bar--link">Home</li>
+            <li class="nav-bar--link">Films</li>
+            <li class="nav-bar--link button">Randomizer</li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="search__bar">
+            <h1 class="search__bar--title">
+                Browse Ghibli Movies
+            </h1>
+            <div class="input--wrapper">
+                <input class="data__search" type="text" placeholder="Search by Studio Ghibli Titles">
+                <i class="fas fa-search search__icon"></i>
+            </div>
+        </div>
+    </div>
+    <section id="search">
+        <div class="search__wrapper">
+            <h1 class="search__info">Search Results:</h1>
+            <div id="movies">
+                <div class="movies__wrapper">
+                    <div class="loading-state">
+                        <i class="fas fa-spinner"></i>
+                    </div>
+                    <div class="movies__list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
